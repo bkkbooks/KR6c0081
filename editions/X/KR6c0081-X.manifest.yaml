@@ -1,0 +1,70 @@
+canonical_identifier: bkk:krp/KR6c0081/X/v1
+canonical_location: https://kanripo.org/bkk/KR6c0081/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金剛經部旨
+  identifiers:
+    krp: KR6c0081
+    cbeta: X25n0493
+    cbeta_old_id: X25n0493
+    authorityid: CA0001674
+    json_key: X0493
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X25/X25n0493.xml
+    old_id: X25n0493
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0081_000-X.yaml, hash: 'sha256:cf61dcbe95741acbf7eb421794d7710f4a7bd5b1819e9e41af3d4fb06c2061a3'}
+  - {seq: 1, filename: KR6c0081_001-X.yaml, hash: 'sha256:4f4b98dcaca7fa0a03e4d064fa1fe584043907aa9e370c8c40f5e0c7f0dc33f2'}
+  - {seq: 2, filename: KR6c0081_002-X.yaml, hash: 'sha256:0c3233e3de4d1bcedfcf3eb9120b4599ce538baaac294d78ba8b9ca60ad1f637'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6c0081_000-X.markers.yaml, hash: 'sha256:8a7741f8ba401fe00518fea7cddf48958f2dbfb6ebe88781891e82f2374e303c'}
+  - {seq: 1, role: markers, filename: assets/KR6c0081_001-X.markers.yaml, hash: 'sha256:c09d1ea2c113fc4c7c1307b9b7be4a171644fef56ae7c44f60b8f84ae4ea6146'}
+  - {seq: 2, role: markers, filename: assets/KR6c0081_002-X.markers.yaml, hash: 'sha256:0a2860b51adfe5a98bb1d204c5a846d1e296286fcb1aac82bde3e696c9940202'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6c0081_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: No. 493-A 金剛般若波羅蜜經部旨科
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6c0081_X_000-mulu-2
+    span:
+    - front
+    - 1186
+    - 1186
+  label: 金剛般若波羅蜜經部旨
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6c0081_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 11822
+  label: 金剛般若波羅蜜經部旨上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6c0081_X_002-juan-start
+    span:
+    - body
+    - 0
+    - 9230
+  label: 金剛般若波羅蜜經部旨下
+  type: juan
+  level: 1
+hash: sha256:ba4d5da2039b24e668105c61d0fd6ed492ec59a94470b6e37c5bb448819053d2
