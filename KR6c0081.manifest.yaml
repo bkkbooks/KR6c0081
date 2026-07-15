@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6c0081/v1
 canonical_location: https://kanripo.org/bkk/KR6c0081/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 金剛經部旨
   identifiers:
@@ -21,13 +21,13 @@ editions:
 - short: X
 assets:
   parts:
-  - {seq: 0, filename: KR6c0081_000.yaml, hash: 'sha256:cf61dcbe95741acbf7eb421794d7710f4a7bd5b1819e9e41af3d4fb06c2061a3'}
-  - {seq: 1, filename: KR6c0081_001.yaml, hash: 'sha256:4f4b98dcaca7fa0a03e4d064fa1fe584043907aa9e370c8c40f5e0c7f0dc33f2'}
-  - {seq: 2, filename: KR6c0081_002.yaml, hash: 'sha256:0c3233e3de4d1bcedfcf3eb9120b4599ce538baaac294d78ba8b9ca60ad1f637'}
+  - {seq: 0, filename: KR6c0081_000.yaml, hash: 'sha256:be9238585e26ee57c1486a3c0805ecfc36bb24f5c0c8c1e98332c70112aa69d7'}
+  - {seq: 1, filename: KR6c0081_001.yaml, hash: 'sha256:dfcf9be620f00eb4514bf35d5d457222e18ac412cec34ae9d9c01908b856918a'}
+  - {seq: 2, filename: KR6c0081_002.yaml, hash: 'sha256:f4001b1f2e8d02e348b48792786c12c9a797d78927a6db162c26ea367c1adcc4'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6c0081_000.markers.yaml, hash: 'sha256:98e3988bff0af918b5320808e9eff2cce6bb7fb9da5da13c20b22d723977d6c0'}
-  - {seq: 1, role: markers, filename: assets/KR6c0081_001.markers.yaml, hash: 'sha256:03b729c3ec09220c4ce5fbfd5b1906bdac6d54da1c9cee71bf4755bf01fa552b'}
-  - {seq: 2, role: markers, filename: assets/KR6c0081_002.markers.yaml, hash: 'sha256:246d7d7d22b37aa957b7b14ac0a56a5f9fc7e5dec46f7b9385d7c33541dfc5a7'}
+  - {seq: 0, role: markers, filename: assets/KR6c0081_000.markers.yaml, hash: 'sha256:af354f4e7181430744bfc6e49cf333aa9228e0cf8298701c92675f9a85f4d5f0'}
+  - {seq: 1, role: markers, filename: assets/KR6c0081_001.markers.yaml, hash: 'sha256:4bbbf9d906db31f0c7fe1d08eadfeac8e6e59119fce0e89b0c788e8d6a30fdc7'}
+  - {seq: 2, role: markers, filename: assets/KR6c0081_002.markers.yaml, hash: 'sha256:747df75cbffb250f90be9b324507d9e7f4aab4047a5b4364c34d0cda93080095'}
 table_of_contents:
 - ref:
     seq: 0
@@ -69,4 +69,7 @@ table_of_contents:
   label: 金剛般若波羅蜜經部旨下
   type: juan
   level: 1
-hash: sha256:b5e4a58f214523f48a3c0be72c2937fdc2c8ebdd78e67890498a0074a3d042dd
+hash: sha256:25274150064e068667f1462a03f074ee41cf8fb5cc9205fd600dcddc96c607d6
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
